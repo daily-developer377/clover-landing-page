@@ -179,25 +179,25 @@ Author URL: http://w3layouts.com
     
                         <div class="col-lg-6 col-10 mx-auto">
                             <form id="submit-form" class="custom-form ticket-form mb-5 mb-lg-0" action="" role="form">
-                                <h2 class="text-center mb-4">Register for Our Coding Program and Launch Your Tech Career
+                                <h2 class="text-center mb-4">Register Now
                                 </h2>
     
                                 <div class="ticket-form-body">
                                     <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12">
+                
                                             <input type="text" name="Name" id="ticket-form-name" class="form-control"
                                                 placeholder="Full name" required>
-                                        </div>
+                                        
     
-                                        <div class="col-lg-6 col-md-6 col-12">
+                                        
                                             <input type="email" name="Email" id="ticket-form-email" pattern="[^ @]*@[^ @]*"
                                                 class="form-control" placeholder="Email address" required>
-                                        </div>
+                                        
+                                    
+    
+                                            <input type="tel" class="form-control" name="Phone" placeholder="Phone no:" required="">
                                     </div>
-    
-                                    <input type="tel" class="form-control" name="Phone" placeholder="Number" required="">
-    
-                                    <h6>Your Qualification</h6>
+                                  
     
                                     <!-- <div class="row">
                                         <div class="col-lg-6 col-md-6 col-12">
@@ -221,11 +221,7 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div> -->
     
-                                    <input type="text" name="Qualification" id="ticket-form-number" class="form-control"
-                                        placeholder="Qualification" required>
-    
-                                    <textarea name="WhyChooseCoding" rows="3" class="form-control" id="ticket-form-message"
-                                        placeholder="Why You Choose Coding" required></textarea>
+                            
     
                                     <div class="col-lg-4 col-md-10 col-8 mx-auto">
                                         <button type="submit" class="form-control">Submit</button>
@@ -734,11 +730,11 @@ Author URL: http://w3layouts.com
     $("#submit-form").submit((e) => {
         e.preventDefault()
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbyiUCxs4ybDquQver0Cv0ZKhSupIbresVq1C38fWIyZnJ58O4lONYOf7Oy4ZsJw7a044w/exec",
+            url: "https://script.google.com/macros/s/AKfycby1P9w3JqC3fndiSdWXUWmfH2sIK0Eu43b8ewdYMhlMpq39fDPMILmHk6FcegvoHPbq/exec",
             data: $("#submit-form").serialize(),
             method: "post",
             success: function (response) {
-                // alert("Form submitted successfully")
+                 alert("Form submitted successfully")
                 window.location.reload()
                 //window.location.href="https://google.com"
             },

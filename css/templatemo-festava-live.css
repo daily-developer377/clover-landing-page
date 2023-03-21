@@ -554,7 +554,7 @@ strong {
 -----------------------------------------*/
 .ticket-section {
   /* background-image: url('../images/nicholas-green-unsplash-blur.jpg'); */
-  background-image: url('https://images.unsplash.com/photo-1624378515195-6bbdb73dff1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-image: url('/image1.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
