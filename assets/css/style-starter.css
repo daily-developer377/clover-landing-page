@@ -20908,7 +20908,8 @@ ul.blog-meta i {
 /*--//blog--*/
 /*--/testimonials--*/
 .w3l-clients {
-    background: url(../images/banner6.jpg) no-repeat center;
+    /* background: url(../images/banner6.jpg) no-repeat center; */
+    background: url(https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1864&q=80) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     position: relative;
@@ -21242,7 +21243,8 @@ section.w3l-newsletter.landingpage {
 }
 
 .uphny-w3l-newsletter-inf {
-    background: url(../images/banner3.jpg) no-repeat center;
+    /* background: url(../images/banner3.jpg) no-repeat center; */
+    background: url(https://images.unsplash.com/photo-1491309055486-24ae511c15c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
