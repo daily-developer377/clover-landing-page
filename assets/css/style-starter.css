@@ -18644,7 +18644,10 @@ form.search-box {
 /*--//serach--*/
 @media only screen and (max-width: 992px) {
     header.nav-fixed {
+<<<<<<< HEAD
         /* height: auto; */
+=======
+>>>>>>> 2c07afc907dc2d8f90bc41f0b895fe19a2dbe2f3
         padding: 14px 0;
     }
 
