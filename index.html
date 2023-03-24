@@ -193,6 +193,8 @@ Author URL: http://w3layouts.com
                                         
                                             <input type="email" name="Email" id="ticket-form-email" pattern="[^ @]*@[^ @]*"
                                                 class="form-control" placeholder="Email address" required>
+                                            <input type="text" name="place" id="ticket-form-email"
+                                                class="form-control" placeholder="Place" required>
                                         
                                     
     
@@ -742,7 +744,7 @@ Author URL: http://w3layouts.com
             data: $("#submit-form").serialize(),
             method: "post",
             success: function (response) {
-                 alert("Form submitted successfully")
+                //  alert("Form submitted successfully")
                 window.location.reload()
                 //window.location.href="https://google.com"
             },
